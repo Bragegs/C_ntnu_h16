@@ -9,4 +9,6 @@
 /home/debian/c++/Oving1/1B/Oving1B.cpp
 iostream
 -
+fstream
+-
 

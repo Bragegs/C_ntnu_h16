@@ -20,10 +20,6 @@ int main() {
     } else {
       antall_o_20++;
     }
-    
-    if ( (i+1) == antall ) {
-      std::cout << "Antall under 10: " << antall_u_10 << std::endl << "Antall mellom 10 og 20: " << antall_m_10_20 << std::endl << "Antallet over 20: " << antall_o_20 << std::endl;
-    }
   }
-  
+  std::cout << "Antall under 10: " << antall_u_10 << std::endl << "Antall mellom 10 og 20: " << antall_m_10_20 << std::endl << "Antallet over 20: " << antall_o_20 << std::endl;
 }
