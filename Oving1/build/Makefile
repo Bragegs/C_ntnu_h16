@@ -115,29 +115,29 @@ Oving1/fast:
 	$(MAKE) -f CMakeFiles/Oving1.dir/build.make CMakeFiles/Oving1.dir/build
 .PHONY : Oving1/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+Oving1A.o: Oving1A.cpp.o
+.PHONY : Oving1A.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/Oving1.dir/build.make CMakeFiles/Oving1.dir/main.cpp.o
-.PHONY : main.cpp.o
+Oving1A.cpp.o:
+	$(MAKE) -f CMakeFiles/Oving1.dir/build.make CMakeFiles/Oving1.dir/Oving1A.cpp.o
+.PHONY : Oving1A.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+Oving1A.i: Oving1A.cpp.i
+.PHONY : Oving1A.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/Oving1.dir/build.make CMakeFiles/Oving1.dir/main.cpp.i
-.PHONY : main.cpp.i
+Oving1A.cpp.i:
+	$(MAKE) -f CMakeFiles/Oving1.dir/build.make CMakeFiles/Oving1.dir/Oving1A.cpp.i
+.PHONY : Oving1A.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+Oving1A.s: Oving1A.cpp.s
+.PHONY : Oving1A.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/Oving1.dir/build.make CMakeFiles/Oving1.dir/main.cpp.s
-.PHONY : main.cpp.s
+Oving1A.cpp.s:
+	$(MAKE) -f CMakeFiles/Oving1.dir/build.make CMakeFiles/Oving1.dir/Oving1A.cpp.s
+.PHONY : Oving1A.cpp.s
 
 # Help Target
 help:
@@ -148,9 +148,9 @@ help:
 	@echo "... Oving1"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... Oving1A.o"
+	@echo "... Oving1A.i"
+	@echo "... Oving1A.s"
 .PHONY : help
 
 

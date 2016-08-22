@@ -49,37 +49,37 @@ include CMakeFiles/Oving1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Oving1.dir/flags.make
 
-CMakeFiles/Oving1.dir/main.cpp.o: CMakeFiles/Oving1.dir/flags.make
-CMakeFiles/Oving1.dir/main.cpp.o: ../main.cpp
+CMakeFiles/Oving1.dir/Oving1A.cpp.o: CMakeFiles/Oving1.dir/flags.make
+CMakeFiles/Oving1.dir/Oving1A.cpp.o: ../Oving1A.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/debian/c++/Oving1/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Oving1.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Oving1.dir/main.cpp.o -c /home/debian/c++/Oving1/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Oving1.dir/Oving1A.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Oving1.dir/Oving1A.cpp.o -c /home/debian/c++/Oving1/Oving1A.cpp
 
-CMakeFiles/Oving1.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Oving1.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/debian/c++/Oving1/main.cpp > CMakeFiles/Oving1.dir/main.cpp.i
+CMakeFiles/Oving1.dir/Oving1A.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Oving1.dir/Oving1A.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/debian/c++/Oving1/Oving1A.cpp > CMakeFiles/Oving1.dir/Oving1A.cpp.i
 
-CMakeFiles/Oving1.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Oving1.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/debian/c++/Oving1/main.cpp -o CMakeFiles/Oving1.dir/main.cpp.s
+CMakeFiles/Oving1.dir/Oving1A.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Oving1.dir/Oving1A.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/debian/c++/Oving1/Oving1A.cpp -o CMakeFiles/Oving1.dir/Oving1A.cpp.s
 
-CMakeFiles/Oving1.dir/main.cpp.o.requires:
-.PHONY : CMakeFiles/Oving1.dir/main.cpp.o.requires
+CMakeFiles/Oving1.dir/Oving1A.cpp.o.requires:
+.PHONY : CMakeFiles/Oving1.dir/Oving1A.cpp.o.requires
 
-CMakeFiles/Oving1.dir/main.cpp.o.provides: CMakeFiles/Oving1.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Oving1.dir/build.make CMakeFiles/Oving1.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/Oving1.dir/main.cpp.o.provides
+CMakeFiles/Oving1.dir/Oving1A.cpp.o.provides: CMakeFiles/Oving1.dir/Oving1A.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Oving1.dir/build.make CMakeFiles/Oving1.dir/Oving1A.cpp.o.provides.build
+.PHONY : CMakeFiles/Oving1.dir/Oving1A.cpp.o.provides
 
-CMakeFiles/Oving1.dir/main.cpp.o.provides.build: CMakeFiles/Oving1.dir/main.cpp.o
+CMakeFiles/Oving1.dir/Oving1A.cpp.o.provides.build: CMakeFiles/Oving1.dir/Oving1A.cpp.o
 
 # Object files for target Oving1
 Oving1_OBJECTS = \
-"CMakeFiles/Oving1.dir/main.cpp.o"
+"CMakeFiles/Oving1.dir/Oving1A.cpp.o"
 
 # External object files for target Oving1
 Oving1_EXTERNAL_OBJECTS =
 
-Oving1: CMakeFiles/Oving1.dir/main.cpp.o
+Oving1: CMakeFiles/Oving1.dir/Oving1A.cpp.o
 Oving1: CMakeFiles/Oving1.dir/build.make
 Oving1: CMakeFiles/Oving1.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable Oving1"
@@ -89,7 +89,7 @@ Oving1: CMakeFiles/Oving1.dir/link.txt
 CMakeFiles/Oving1.dir/build: Oving1
 .PHONY : CMakeFiles/Oving1.dir/build
 
-CMakeFiles/Oving1.dir/requires: CMakeFiles/Oving1.dir/main.cpp.o.requires
+CMakeFiles/Oving1.dir/requires: CMakeFiles/Oving1.dir/Oving1A.cpp.o.requires
 .PHONY : CMakeFiles/Oving1.dir/requires
 
 CMakeFiles/Oving1.dir/clean:

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Oving1.dir/main.cpp.o"
+  "CMakeFiles/Oving1.dir/Oving1A.cpp.o"
   "Oving1.pdb"
   "Oving1"
 )

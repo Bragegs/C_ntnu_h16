@@ -1,7 +1,7 @@
 [
 {
   "directory": "/home/debian/c++/Oving1/build",
-  "command": "/usr/bin/c++     -std=c++1y -Wall -Wextra -Wno-unused-parameter   -o CMakeFiles/Oving1.dir/main.cpp.o -c /home/debian/c++/Oving1/main.cpp",
-  "file": "/home/debian/c++/Oving1/main.cpp"
+  "command": "/usr/bin/c++     -std=c++1y -Wall -Wextra -Wno-unused-parameter   -o CMakeFiles/Oving1.dir/Oving1A.cpp.o -c /home/debian/c++/Oving1/Oving1A.cpp",
+  "file": "/home/debian/c++/Oving1/Oving1A.cpp"
 }
 ]

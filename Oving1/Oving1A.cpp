@@ -1,7 +1,6 @@
 #include <iostream>
 
 int main() {
-  std::cout << "Hello World!\n";
   
   const int antall = 5;
   int antall_u_10 = 0;
@@ -16,7 +15,7 @@ int main() {
     
     if (temp < 10) {
       antall_u_10++;
-    } else if (temp > 10 && temp < 20) {
+    } else if (temp >= 10 && temp <= 20) {
       antall_m_10_20++;
     } else {
       antall_o_20++;
