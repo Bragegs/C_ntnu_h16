@@ -1,0 +1,7 @@
+char *linje = nullptr; // eller char *linje = 0;
+strcpy(linje, "Dette er en tekst");
+
+
+Settes av plass til pekeren linje. Siden linje har fått
+nullverdi, så kan teksten bli lagret hvor som helst. Kompilator
+vet ikke hvor mye plass den skal reservere til teksten.
