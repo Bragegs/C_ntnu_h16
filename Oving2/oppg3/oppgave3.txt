@@ -1,12 +1,3 @@
-char tekst[5];
-char *pekeren = tekst;
-char letEtter = 'e';
-cin >> tekst;
-while (*pekeren != letEtter) {
- *pekeren = letEtter;
- pekeren++;
-}
-
 Programmet leser inn et ord og lagrer det i en nullterminert tekststreng.
 Det går bra å skrive inn et ord som har lengde større eller lik 5, så lenge
 det ikke ligger andre data der.. Det er plass til en tekst med lengde 4
@@ -17,4 +8,5 @@ andre ting. Kompilator tror den skal sette av plass til en tabell med
 5 elementer.
 
 Dette skjer ved inkrementering av *pekeren som er det samme som,
-*(pekeren + (N+1)).
+*(pekeren + (N+1)). Får evig løkke.
+
