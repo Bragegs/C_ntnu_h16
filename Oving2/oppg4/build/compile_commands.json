@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/debian/c++/Oving2/oppg4/build",
-  "command": "/usr/bin/c++     -std=c++1y -Wall -Wextra -Wno-unused-parameter   -o CMakeFiles/oppg4.dir/main.cpp.o -c /home/debian/c++/Oving2/oppg4/main.cpp",
-  "file": "/home/debian/c++/Oving2/oppg4/main.cpp"
-}
-]

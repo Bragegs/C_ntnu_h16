@@ -1,1 +1,0 @@
-/home/debian/c++/Oving2/oppg6/build/CMakeFiles/oppg6.dir

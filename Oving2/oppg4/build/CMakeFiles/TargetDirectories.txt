@@ -1,1 +1,0 @@
-/home/debian/c++/Oving2/oppg4/build/CMakeFiles/oppg4.dir
