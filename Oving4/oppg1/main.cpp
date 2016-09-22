@@ -33,15 +33,11 @@ int main() {
   
   cout << "\nFront: " << front << ", back: " << back << "\n" << endl;
   
-  
-
   tallene.emplace(tallene.begin()+1,5.6);
   
   cout << "Emplaced 5.6 at position 1, front() is still:  " << tallene.front() << endl;
 
-  
   auto it = find(tallene.begin(),tallene.end(), 3.4);
-  
   
   if (it != tallene.end()) {
     cout << "\nIn position " << (it - tallene.begin()) << " we found " << *it << "\n" << endl;
@@ -49,7 +45,4 @@ int main() {
     cout << "\nDouble not found\n" << endl;
   }
   
-  
-
-
 }
